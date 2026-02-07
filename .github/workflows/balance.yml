@@ -1,0 +1,49 @@
+name: Update hledger balance in README
+
+on:
+  push:
+    paths:
+      - "2026.journal"
+      - ".github/workflows/hledger-balance.yml"
+  workflow_dispatch: # lets you run it manually
+
+permissions:
+  contents: write
+
+jobs:
+  update-balance:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install hledger
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y hledger
+
+      - name: Run hledger balance
+        id: balance
+        run: |
+          echo "BALANCE_OUTPUT<<EOF" >> $GITHUB_ENV
+          hledger -f 2026.journal balance >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Update README balance section
+        run: |
+          awk '
+            /<!-- BALANCE:START -->/ { print; print "```"; print ENVIRON["BALANCE_OUTPUT"]; print "```"; skip=1; next }
+            /<!-- BALANCE:END -->/ { skip=0 }
+            !skip
+          ' README.md > README.new.md
+
+          mv README.new.md README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Auto-update balance from hledger"
+          git push

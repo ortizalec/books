@@ -12,5 +12,9 @@
     equity:start                  -15366.93
 
 2026-02-06 starting balance
-    equity:start                           -5910.35
-    liabilities:creditcard:sapphire         5910.35
+    equity:start                           5910.35
+    liabilities:creditcard:sapphire        -5910.35
+
+2026-02-07 turtle bay morning cafe with parents
+    expenses:goingout                        61.21
+    liabilities:creditcard:marriot          -61.21

@@ -1,7 +1,5 @@
 # Ortiz Books
 
-## Balance
-
 <!-- BALANCE:START -->
 ```
 Balance Sheet 2026-02-06

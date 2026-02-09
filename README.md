@@ -2,25 +2,25 @@
 
 <!-- BALANCE:START -->
 ```
-Balance Sheet 2026-02-07
+Balance Sheet 2026-02-09
 
-                                 || 2026-02-07 
+                                 || 2026-02-09 
 =================================++============
  Assets                          ||            
 ---------------------------------++------------
- assets:bank:checking            ||    1931.88 
- assets:bank:savings             ||   75000.28 
- assets:bank:summersaver         ||   15366.93 
+ assets:checking                 ||    1931.88 
+ assets:savings                  ||   75000.28 
+ assets:summersaver              ||   15366.93 
 ---------------------------------++------------
                                  ||   92299.09 
 =================================++============
  Liabilities                     ||            
 ---------------------------------++------------
- liabilities:creditcard:marriot  ||      61.21 
- liabilities:creditcard:sapphire ||    5910.35 
+ liabilities:creditcard:marriot  ||     134.47 
+ liabilities:creditcard:sapphire ||    8201.26 
 ---------------------------------++------------
-                                 ||    5971.56 
+                                 ||    8335.73 
 =================================++============
- Net:                            ||   86327.53 
+ Net:                            ||   83963.36 
 ```
 <!-- BALANCE:END -->

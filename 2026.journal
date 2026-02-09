@@ -1,20 +1,107 @@
+; ~ monthly from 2026/02
+;     expenses:tithe                          1000.00
+;     expenses:utilities:internet               63.00
+;     expenses:utilities:electricity           400.00
+;     expenses:transportation:gas              300.00
+;     expenses:groceries                      1000.00
+;     expenses:phone                            65.00
+;     expenses:subscriptions:spotify            20.00
+;     expenses:subscriptions:peacok             17.00
+;     expenses:subscriptions:amazon             16.00
+;     expenses:subscriptions:oura                7.00
+;     expenses:subscriptions:google photos      10.00
+;     expenses:subscriptions:nyt games           6.00
+;     expenses:subscriptions:gym                82.00
+;     expenses:going out                       800.00
+;     expenses:insurance:life                   71.00
+;     ; liabilities:creditcard:marriot             0.00
+;     ; liabilities:creditcard:sapphire            0.00
+;     liabilities
+; 
+; ~ monthly from 2026/02
+;     expenses:rent                           3100.00
+;     assets:checking
 
-2026-02-06 starting balance
-    assets:bank:checking         1931.88
-    equity:start                -1931.88
-
-2026-02-06 starting balance
-    assets:bank:savings        75000.28
-    equity:start              -75000.28
-
-2026-02-06 starting balance
-    assets:bank:summersaver        15366.93
-    equity:start                  -15366.93
-
-2026-02-06 starting balance
-    equity:start                           5910.35
-    liabilities:creditcard:sapphire        -5910.35
+2026-02-06 starting balances
+    assets:checking                        1931.88
+    assets:savings                        75000.28
+    assets:summersaver                    15366.93
+    liabilities:creditcard:sapphire       -5910.35
+    equity:opening balances  
 
 2026-02-07 turtle bay morning cafe with parents
-    expenses:goingout                        61.21
+    expenses:going out                       61.21
     liabilities:creditcard:marriot          -61.21
+
+
+2026-02-08 holo holo market turtle bay
+    expenses:going out                       27.99
+    liabilities:creditcard:marriot          -27.99
+
+2026-02-08 paia fish market lunch with parents
+    expenses:going out                       30.37
+    liabilities:creditcard:marriot          -30.37
+
+2026-02-09 shaved ice with parents island vintage
+    expenses:going out                       14.90
+    liabilities:creditcard:marriot          -14.90
+
+2026-02-07 turtle bay ~ unknown
+    expenses:going out                       336.83
+    liabilities:creditcard:sapphire         -336.83
+
+2026-02-07 amazon prime membership
+    expenses:subscriptions           15.70
+    liabilities:creditcard:sapphire              -15.70
+
+2026-02-07 seven brothers
+    expenses:going out                        50.23
+    liabilities:creditcard:sapphire          -50.23
+
+2026-02-07 secen brothers lunch
+    expenses:going out                        10.47
+    liabilities:creditcard:sapphire          -10.47
+
+2026-02-08 canva
+    expenses:subscriptions              15.68
+    liabilities:creditcard:sapphire          -15.68
+
+2026-02-06 turtle bay
+    expenses:going out                       201.00
+    liabilities:creditcard:sapphire         -201.00
+
+2026-02-07 turtle bay
+    expenses:going out                       997.56
+    liabilities:creditcard:sapphire         -997.56
+
+2026-02-07 da bald guy lunch
+    expenses:going out                        38.05
+    liabilities:creditcard:sapphire          -38.05
+
+2026-02-07 turtle bay spa
+    expenses:going out                       392.88
+    liabilities:creditcard:sapphire         -392.88
+
+2026-02-08 turtle bay
+    expenses:going out                           50.00
+    liabilities:creditcard:sapphire             -50.00
+
+2026-02-08 barns and noble, spanish book, next book in series for alyssa
+    expenses:going out                       35.74
+    liabilities:creditcard:sapphire          -35.74
+
+2026-02-09 abc hawaii leis for kids
+    expenses:going out                        45.47
+    liabilities:creditcard:sapphire          -45.47
+
+2026-02-09 taco bell dinner
+    expenses:going out                        30.20
+    liabilities:creditcard:sapphire          -30.20
+
+2026-02-09 oura ring
+    expenses:subscriptions                     6.26
+    liabilities:creditcard:sapphire           -6.26
+
+2026-02-09 76 gas station
+    expenses:going out                        64.84
+    liabilities:creditcard:sapphire          -64.84
